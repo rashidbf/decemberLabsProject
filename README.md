@@ -19,7 +19,7 @@ Download and install
 
 **Clonar el repositorio:**
 
-    git clone https://github.com/rashidbf/lamansysProject.git
+    git clone https://github.com/rashidbf/decemberLabsProject.git
 
 **To run the tests, in the folder src/test/resourcesr**
 - Right click run on the suite you want to run
