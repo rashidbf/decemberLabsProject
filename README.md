@@ -15,9 +15,9 @@ Download and install
 - Maven [(Maven)](https://maven.apache.org/download.cgi)
     - Make sure you have the **M2_HOME** or **PATH** environment variable set to the respective Maven path.
 
-### Instalación del framework de pruebas
+### Installation
 
-**Clonar el repositorio:**
+**Clone the repository:**
 
     git clone https://github.com/rashidbf/decemberLabsProject.git
 
