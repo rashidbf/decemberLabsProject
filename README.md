@@ -5,7 +5,7 @@
 
 ### Prerequisites
 
----
+
 
 - Make sure [git bash](https://git-scm.com/downloads) is installed on the system.
 
@@ -16,6 +16,8 @@ Download and install
     - In case of having another previous version of the JDK, for the project to work, the **java.version** property must be updated in the pom.xml file.
 - Maven [(Maven)](https://maven.apache.org/download.cgi)
     - Make sure you have the **M2_HOME** or **PATH** environment variable set to the respective Maven path.
+
+---
 
 ### Installation
 
