@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite - decemberLabs" verbose="1" >
+    <listeners>
+        <listener class-name="utils.listeners.ListenerTestNG"/>
+    </listeners>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://inhouse.decemberlabs.com/"/>
+    <test name="DecemberLabs Test">
+        <parameter name="expectedUrl" value="https://inhouse.decemberlabs.com/locations/austin/"/>
+        <parameter name="expectedTitle" value="Austin Web &amp; App Developers | December Labs"/>
+         <classes>
+            <class name="tests.decemberLabs.DecemberLabsPartFourTest" />
+        </classes>
+    </test>
+
+</suite>

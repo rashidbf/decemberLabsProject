@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite - decemberLabs" verbose="1" >
+    <listeners>
+        <listener class-name="utils.listeners.ListenerTestNG"/>
+    </listeners>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://inhouse.decemberlabs.com/"/>
+    <test name="DecemberLabs Test">
+        <parameter name="name" value="Rashid"/>
+        <parameter name="email" value="rashid@gmail.com"/>
+        <parameter name="company" value="DecemberLabs"/>
+        <parameter name="longMessage" value="This field must be completed with information about yourself, for example, name, surname, profession, etc."/>
+        <parameter name="firstMessage" value="Thanks for reaching out!"/>
+        <parameter name="secondMessage" value="We’ll be in touch shortly."/>
+        <parameter name="loginErrorMessageWrongPassword" value="Wrong password. Try again or click Forgot password to reset it."/>
+
+         <classes>
+            <class name="tests.decemberLabs.DecemberLabsPartOneTest" />
+        </classes>
+    </test>
+
+</suite>
