@@ -5,6 +5,8 @@
 
 ### Prerequisites
 
+---
+
 - Make sure [git bash](https://git-scm.com/downloads) is installed on the system.
 
 Download and install
