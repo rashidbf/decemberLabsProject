@@ -46,7 +46,7 @@ public class DecemberLabsPartOneTest extends BaseTest {
         homePage.clickIconDecemberLabs();
     }
 
-    @Test(priority = 2)
+    @Test(priority = 3)
     @Parameters({"name","email"})
     public void incompleteFormGetInTouchRequireParameters(String name, String email) {
         homePage.clickIconDecemberLabs();

@@ -341,6 +341,7 @@ public class HomePage extends BasePage {
     public void errorMessageCaptcha(){
         for(int i = 0; i < 7 ; i++ ) {
             if (!googleReCaptchaLocator.isEmpty()) {
+                utils.timeUtil.timeOut(TimeSeconds.THREE_SECOND);
                 System.out.println("intento numero " + i);
                 clickSendButton();
             }else {
