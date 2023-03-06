@@ -21,5 +21,5 @@ Download and install
 
     git clone https://github.com/rashidbf/decemberLabsProject.git
 
-**To run the tests, in the folder src/test/resourcesr**
+**To run the tests, in the folder src/test/resources**
 - Right click run on the suite you want to run
